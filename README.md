@@ -1,5 +1,6 @@
-Gogs [![Build Status](https://travis-ci.org/gogs/gogs.svg?branch=master)](https://travis-ci.org/gogs/gogs) [![Build status](https://ci.appveyor.com/api/projects/status/b9uu5ejl933e2wlt/branch/master?svg=true)](https://ci.appveyor.com/project/Unknwon/gogs/branch/master) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/gogs/localized.svg)](https://crowdin.com/project/gogs) [![Discord](https://img.shields.io/discord/382595433060499458.svg)](https://discord.gg/9aqdHU7)
-=====================
+# Gogs
+
+[![Build status](https://img.shields.io/travis/gogs/gogs/master.svg?style=for-the-badge&logo=travis)](https://travis-ci.org/gogs/gogs) [![Build status](https://img.shields.io/appveyor/ci/Unknwon/gogs?logo=appveyor&style=for-the-badge)](https://ci.appveyor.com/project/Unknwon/gogs/branch/master) [![Discord](https://img.shields.io/discord/382595433060499458.svg?style=for-the-badge&logo=discord)](https://discord.gg/9aqdHU7) [![Sourcegraph](https://img.shields.io/badge/view%20on-Sourcegraph-brightgreen.svg?style=for-the-badge&logo=sourcegraph)](https://sourcegraph.com/github.com/gogs/gogs)
 
 ![](https://github.com/gogs/gogs/blob/master/public/img/gogs-large-resize.png?raw=true)
 
@@ -15,16 +16,14 @@ Gogs [![Build Status](https://travis-ci.org/gogs/gogs.svg?branch=master)](https:
 
 1. **YOU MUST READ [Contributing Code](https://github.com/gogs/gogs/wiki/Contributing-Code) BEFORE STARTING TO WORK ON A PULL REQUEST**.
 2. Due to testing purpose, data of [try.gogs.io](https://try.gogs.io) was reset in **Jan 28, 2015** and will reset multiple times after. Please do **NOT** put your important data on the site.
-3. The demo site [try.gogs.io](https://try.gogs.io) is running under `develop` branch.
-4. If you think there are vulnerabilities in the project, please talk privately to **u@gogs.io**, and the name you want to be credited as. Thanks!
-5. If you're interested in using APIs, we have experimental support with [documentation](https://github.com/gogs/go-gogs-client/wiki).
-6. If your team/company is using Gogs and would like to put your logo on [our website](https://gogs.io), contact us by any means.
+3. The demo site [try.gogs.io](https://try.gogs.io) is running under `master` branch.
+4. If you're interested in using APIs, we have experimental support with [documentation](https://github.com/gogs/go-gogs-client/wiki).
 
 [简体中文](README_ZH.md)
 
 ## Vision
 
-This project aims to build a simple, stable and extensible self-hosted Git service that can be setup in the most painless way. With Go, this can be done with an independent binary distribution across **ALL platforms** that Go supports, including Linux, macOS, Windows and ARM.
+The Gogs (`/gɔgs/`) project aims to build a simple, stable and extensible self-hosted Git service that can be setup in the most painless way. With Go, this can be done with an independent binary distribution across **ALL platforms** that Go supports, including Linux, macOS, Windows and ARM.
 
 ## Overview
 
@@ -121,7 +120,7 @@ There are 6 ways to install Gogs:
 ### Product Support
 
 - [Synology](https://www.synology.com) (Docker)
-- [One Space](http://www.onespace.cc) (App Store)
+- [Syncloud](https://syncloud.org/) (App Store)
 
 ## Acknowledgments
 
@@ -129,6 +128,7 @@ There are 6 ways to install Gogs:
 - Thanks [Crowdin](https://crowdin.com/project/gogs) for sponsoring open source translation plan.
 - Thanks [DigitalOcean](https://www.digitalocean.com), [VPSServer](https://www.vpsserver.com/), [Hosted.nl](https://www.hosted.nl/) and [MonoVM](https://monovm.com) for sponsoring VPS services.
 - Thanks [KeyCDN](https://www.keycdn.com/) for sponsoring CDN service.
+- Thanks [Buildkite](https://buildkite.com) for sponsoring open source CI/CD plan.
 
 ## Contributors
 
